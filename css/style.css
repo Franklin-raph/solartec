@@ -1,8 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #32C36C;
+    --primary: #2B7E27;
     --light: #F6F7F8;
     --dark: #1A2A36;
+}
+
+.btn-primary{
+    background-color: #2B7E27;
+    border-color: #2B7E27;
 }
 
 .fw-medium {
@@ -86,6 +91,18 @@
 .navbar .navbar-brand,
 .navbar a.btn {
     height: 75px;
+}
+
+/* img{
+    width: 10%;
+} */
+
+.navbar-brand{
+    margin-right: 0;
+}
+
+.navbar-brand img{
+    /* width: 40%; */
 }
 
 .navbar .navbar-nav .nav-link {
