@@ -5,6 +5,10 @@
     --dark: #1A2A36;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 .btn-primary{
     background-color: #2B7E27;
     border-color: #2B7E27;
